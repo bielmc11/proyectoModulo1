@@ -1,0 +1,92 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.buttonContact{
+    border: 1px solid #c6c6c6 ;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    display: inline-block;
+}
+
+hr{
+    margin-top: 0%;
+    border-color: #c7c7c7, 0.6;
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section{
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2%;
+}
+
+.imagenIfhone{
+    background-color: #e2e2e2;
+    height: 100%;
+    width: 40% ;
+}
+
+.botonVerde{
+    /* falta la font family del botton, en general de todo */
+    background-color: rgb(29, 180, 29);
+    font-size: 18px;
+    color: white;
+    padding: 2%;
+    margin-right: 80%;
+    margin-top: 3%;
+    margin-left: 3%;
+    text-align: center;
+}
+
+.textoIfhone{
+    margin-left: 3%;
+}
+
+    
+#oferta{
+    color: red;
+    margin-top: 0%;
+    padding-top: 0%;
+    font-size: 20px;
+    margin-bottom: 1%;
+}
+
+.textoIfhone h1{
+    font-size: 34px ;
+    margin-top: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.textoIfhone p{
+    font-size: 18px;
+    
+}
+
+
